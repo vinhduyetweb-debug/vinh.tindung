@@ -1,18 +1,29 @@
 {
-  "name": "smart-credit-flow",
-  "version": "1.0.0",
+  "name": "smart-credit-flow-pro",
   "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "15.0.0",
+    "next": "^15.3.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zustand": "^5.0.0",
     "framer-motion": "^11.0.0",
     "recharts": "^2.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/react": "^18.3.3",
+    "@types/node": "^22.7.4",
+    "tailwindcss": "^3.4.14",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20"
   }
 }

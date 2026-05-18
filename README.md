@@ -1,16 +1,15 @@
-# Smart Credit Flow
 
-Mini app quản lý thẻ tín dụng và dòng tiền cá nhân.
+# Smart Credit Flow PRO
+
+Mini app fintech offline-first.
+
+## Deploy
+
+1. Upload GitHub
+2. Import to Vercel
+3. Deploy
 
 ## Run Local
 
-```bash
 npm install
 npm run dev
-```
-
-## Deploy Vercel
-
-```bash
-vercel
-```

@@ -1,0 +1,17 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #020617;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: rgba(30,41,59,0.85);
+  border-radius: 24px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
